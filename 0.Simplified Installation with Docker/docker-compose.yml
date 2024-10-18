@@ -1,0 +1,55 @@
+version: "3.8"
+name: symfony_learning
+
+services:
+  app:
+    container_name: symfony_php
+    build:
+      context: .
+      dockerfile: .docker/php/dockerfile
+    depends_on:
+      - db
+      - mailhog
+    ports:
+      - 8000:80
+      - 5173:5173
+    extra_hosts:
+      - host.docker.internal:host-gateway
+    environment:
+      # Informations de connexion à la base de données
+      DATABASE_HOST: "db"
+      DATABASE_SCHEMA: "symfony"
+      DATABASE_USER: "user"
+      DATABASE_PASSWORD: "password"
+      APP_AUTH: "default"
+    volumes:
+      - ./src:/var/www
+      - ./.docker/vhosts:/etc/apache2/sites-enabled
+      - ./.docker/php/conf.d/xdebug.ini:/usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini
+      - ./.docker/php/conf.d/error_reporting.ini:/usr/local/etc/php/conf.d/error_reporting.ini
+    networks:
+      - symfony-network
+  db:
+    image: mariadb:10.2.17
+    container_name: symfony_mariadb
+    ports:
+      - "3336:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    restart: always
+    command: --default-authentication-plugin=mysql_native_password
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: symfony
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+
+  mailhog:
+    image: mailhog/mailhog
+    ports:
+      - "1025:1025"
+      - "8025:8025"
+networks:
+  symfony-network:
+volumes:
+  mysql_data:
