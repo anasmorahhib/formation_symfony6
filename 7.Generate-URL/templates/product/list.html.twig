@@ -1,0 +1,24 @@
+{# templates/products/index.html.twig #}
+{% extends 'base.html.twig' %}
+
+{% block title %}Product List{% endblock %}
+
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{ asset('styles/products.css') }}">
+{% endblock %}
+
+{% block body %}
+<h1>Products List</h1>
+
+{# this is a list of Products #}
+<div class="product-container">
+    {% for product in products %}
+        <div class="product">
+            <img src="{{ asset('images/products/' ~ product.image) }}" alt="{{ product.title }}" />
+            <h3>{{ product.title }}</h3>
+            <p>{{ product.price }} DH</p>
+            <a href="{{ path('product', {'id': product.id}) }}" class="see-more">Voir plus</a>
+        </div>
+    {% endfor %}
+</div>
+{% endblock %}
