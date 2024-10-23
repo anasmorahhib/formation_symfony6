@@ -22,9 +22,16 @@
     <div class="product-container">
         {% for product in products %}
             <div class="product">
+                <div class="product-user">
+                    <div class="avatar">U</div>
+                    <div class="info">
+                        <h3>Yassin AZ...</h3>
+                        <p>21/10/2024</p>
+                     </div>
+                </div>
                 <img src="{{ asset('images/products/' ~ product.image) }}" alt="{{ product.title }}" />
                 <h3>{{ product.title }}</h3>
-                <p>{{ product.price }} DH</p>
+                <p class="price">{{ product.price }} DH</p>
                 
                 <button class="add-to-cart" 
                     data-product-url="{{ path('cart_add', {id: product.id}) }}"
