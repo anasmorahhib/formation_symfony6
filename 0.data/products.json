@@ -1,7 +1,7 @@
 [
     {
       "id": 0,
-      "name": "Iphone 13",
+      "title": "Iphone 13",
       "price": 7000.00,
       "quantity": 1,
       "added_date": "2024-10-20T10:30:00",
@@ -11,7 +11,7 @@
     },
     {
       "id": 1,
-      "name": "Samsung Galaxy S21",
+      "title": "Samsung Galaxy S21",
       "price": 6000.00,
       "quantity": 1,
       "added_date": "2024-10-21T12:45:00",
@@ -21,7 +21,7 @@
     },
     {
       "id": 2,
-      "name": "HP Laptop",
+      "title": "HP Laptop",
       "price": 4500.00,
       "quantity": 1,
       "added_date": "2024-10-22T09:15:00",
@@ -31,7 +31,7 @@
     },
     {
       "id": 3,
-      "name": "Canon EOS 4000D",
+      "title": "Canon EOS 4000D",
       "price": 3000.00,
       "quantity": 1,
       "added_date": "2024-10-20T14:00:00",
@@ -41,7 +41,7 @@
     },
     {
       "id": 4,
-      "name": "PlayStation 5",
+      "title": "PlayStation 5",
       "price": 8000.00,
       "quantity": 1,
       "added_date": "2024-10-21T11:30:00",
@@ -51,7 +51,7 @@
     },
     {
       "id": 5,
-      "name": "Bicycle - Mountain Bike",
+      "title": "Bicycle - Mountain Bike",
       "price": 1500.00,
       "quantity": 1,
       "added_date": "2024-10-22T15:20:00",
@@ -61,7 +61,7 @@
     },
     {
       "id": 6,
-      "name": "Washing Machine",
+      "title": "Washing Machine",
       "price": 2500.00,
       "quantity": 1,
       "added_date": "2024-10-20T08:00:00",
@@ -71,7 +71,7 @@
     },
     {
       "id": 7,
-      "name": "Refrigerator - LG",
+      "title": "Refrigerator - LG",
       "price": 3500.00,
       "quantity": 1,
       "added_date": "2024-10-21T13:50:00",
@@ -81,7 +81,7 @@
     },
     {
       "id": 8,
-      "name": "Wooden Dining Table",
+      "title": "Wooden Dining Table",
       "price": 1800.00,
       "quantity": 1,
       "added_date": "2024-10-22T10:00:00",
@@ -91,7 +91,7 @@
     },
     {
       "id": 9,
-      "name": "Leather Sofa",
+      "title": "Leather Sofa",
       "price": 3500.00,
       "quantity": 1,
       "added_date": "2024-10-20T16:30:00",
@@ -101,7 +101,7 @@
     },
     {
       "id": 10,
-      "name": "Matrace - Queen Size",
+      "title": "Matrace - Queen Size",
       "price": 1200.00,
       "quantity": 1,
       "added_date": "2024-10-21T09:00:00",
@@ -111,7 +111,7 @@
     },
     {
       "id": 11,
-      "name": "Gaming Chair",
+      "title": "Gaming Chair",
       "price": 800.00,
       "quantity": 1,
       "added_date": "2024-10-22T18:20:00",
@@ -121,7 +121,7 @@
     },
     {
       "id": 12,
-      "name": "Air Conditioner - Split",
+      "title": "Air Conditioner - Split",
       "price": 4000.00,
       "quantity": 1,
       "added_date": "2024-10-20T17:40:00",
@@ -131,7 +131,7 @@
     },
     {
       "id": 13,
-      "name": "Electric Kettle",
+      "title": "Electric Kettle",
       "price": 150.00,
       "quantity": 1,
       "added_date": "2024-10-21T14:00:00",
@@ -141,7 +141,7 @@
     },
     {
       "id": 14,
-      "name": "Smart TV - 50 inches",
+      "title": "Smart TV - 50 inches",
       "price": 5500.00,
       "quantity": 1,
       "added_date": "2024-10-22T19:30:00",
@@ -151,7 +151,7 @@
     },
     {
       "id": 15,
-      "name": "Guitar - Acoustic",
+      "title": "Guitar - Acoustic",
       "price": 900.00,
       "quantity": 1,
       "added_date": "2024-10-20T20:00:00",
