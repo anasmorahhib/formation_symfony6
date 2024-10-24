@@ -1,5 +1,4 @@
-{
-  "products": [
+[
     {
       "id": 0,
       "name": "Iphone 13",
@@ -160,5 +159,5 @@
       "category": "Musical Instruments",
       "description": "Acoustic guitar in excellent condition, includes a case."
     }
-  ]
-}
+
+]
