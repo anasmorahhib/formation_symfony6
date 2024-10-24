@@ -1,0 +1,164 @@
+{
+  "products": [
+    {
+      "id": 0,
+      "name": "Iphone 13",
+      "price": 7000.00,
+      "quantity": 1,
+      "added_date": "2024-10-20T10:30:00",
+      "city": "Casablanca",
+      "category": "Electronics",
+      "description": "Iphone 13 in excellent condition with original box and accessories."
+    },
+    {
+      "id": 1,
+      "name": "Samsung Galaxy S21",
+      "price": 6000.00,
+      "quantity": 1,
+      "added_date": "2024-10-21T12:45:00",
+      "city": "Rabat",
+      "category": "Electronics",
+      "description": "Samsung Galaxy S21, like new, with a 128GB storage capacity."
+    },
+    {
+      "id": 2,
+      "name": "HP Laptop",
+      "price": 4500.00,
+      "quantity": 1,
+      "added_date": "2024-10-22T09:15:00",
+      "city": "Marrakech",
+      "category": "Electronics",
+      "description": "HP Laptop with Intel i5 processor, 8GB RAM, and 512GB SSD."
+    },
+    {
+      "id": 3,
+      "name": "Canon EOS 4000D",
+      "price": 3000.00,
+      "quantity": 1,
+      "added_date": "2024-10-20T14:00:00",
+      "city": "Tangier",
+      "category": "Photography",
+      "description": "Canon EOS 4000D with 18-55mm lens, ideal for beginners."
+    },
+    {
+      "id": 4,
+      "name": "PlayStation 5",
+      "price": 8000.00,
+      "quantity": 1,
+      "added_date": "2024-10-21T11:30:00",
+      "city": "Fes",
+      "category": "Gaming",
+      "description": "Brand new PlayStation 5 console with two controllers."
+    },
+    {
+      "id": 5,
+      "name": "Bicycle - Mountain Bike",
+      "price": 1500.00,
+      "quantity": 1,
+      "added_date": "2024-10-22T15:20:00",
+      "city": "Agadir",
+      "category": "Sporting Goods",
+      "description": "Mountain bike in great condition, perfect for trails."
+    },
+    {
+      "id": 6,
+      "name": "Washing Machine",
+      "price": 2500.00,
+      "quantity": 1,
+      "added_date": "2024-10-20T08:00:00",
+      "city": "Essaouira",
+      "category": "Home Appliances",
+      "description": "Front-loading washing machine, energy-efficient and quiet."
+    },
+    {
+      "id": 7,
+      "name": "Refrigerator - LG",
+      "price": 3500.00,
+      "quantity": 1,
+      "added_date": "2024-10-21T13:50:00",
+      "city": "Oujda",
+      "category": "Home Appliances",
+      "description": "LG refrigerator with a spacious interior and smart technology."
+    },
+    {
+      "id": 8,
+      "name": "Wooden Dining Table",
+      "price": 1800.00,
+      "quantity": 1,
+      "added_date": "2024-10-22T10:00:00",
+      "city": "Tanger",
+      "category": "Furniture",
+      "description": "Elegant wooden dining table, seats up to six people."
+    },
+    {
+      "id": 9,
+      "name": "Leather Sofa",
+      "price": 3500.00,
+      "quantity": 1,
+      "added_date": "2024-10-20T16:30:00",
+      "city": "Nador",
+      "category": "Furniture",
+      "description": "Comfortable leather sofa, perfect for living room."
+    },
+    {
+      "id": 10,
+      "name": "Matrace - Queen Size",
+      "price": 1200.00,
+      "quantity": 1,
+      "added_date": "2024-10-21T09:00:00",
+      "city": "Kenitra",
+      "category": "Furniture",
+      "description": "Queen size mattress, lightly used, very comfortable."
+    },
+    {
+      "id": 11,
+      "name": "Gaming Chair",
+      "price": 800.00,
+      "quantity": 1,
+      "added_date": "2024-10-22T18:20:00",
+      "city": "Salé",
+      "category": "Furniture",
+      "description": "Ergonomic gaming chair, adjustable and comfortable for long sessions."
+    },
+    {
+      "id": 12,
+      "name": "Air Conditioner - Split",
+      "price": 4000.00,
+      "quantity": 1,
+      "added_date": "2024-10-20T17:40:00",
+      "city": "Meknes",
+      "category": "Home Appliances",
+      "description": "Split air conditioner, efficient cooling, and low energy consumption."
+    },
+    {
+      "id": 13,
+      "name": "Electric Kettle",
+      "price": 150.00,
+      "quantity": 1,
+      "added_date": "2024-10-21T14:00:00",
+      "city": "Agadir",
+      "category": "Home Appliances",
+      "description": "Fast boiling electric kettle, perfect for tea and coffee."
+    },
+    {
+      "id": 14,
+      "name": "Smart TV - 50 inches",
+      "price": 5500.00,
+      "quantity": 1,
+      "added_date": "2024-10-22T19:30:00",
+      "city": "Rabat",
+      "category": "Electronics",
+      "description": "50-inch Smart TV with 4K resolution and built-in apps."
+    },
+    {
+      "id": 15,
+      "name": "Guitar - Acoustic",
+      "price": 900.00,
+      "quantity": 1,
+      "added_date": "2024-10-20T20:00:00",
+      "city": "Marrakech",
+      "category": "Musical Instruments",
+      "description": "Acoustic guitar in excellent condition, includes a case."
+    }
+  ]
+}
